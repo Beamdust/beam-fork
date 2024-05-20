@@ -98,12 +98,13 @@ func newWriter(driver string, batchSize int, table string, columns []string) (*w
 		table:                  table,
 		binding:                make([]any, 0),
 		sqlTemplate:            fmt.Sprintf("INSERT INTO %v(%v) VALUES", table, strings.Join(columns, ",")),
-		valueTemplateGenerator: &valueTemplateGenerator{driver},
+		valueTemplateGenerator: &valueTemplateGenerator{driver, columns},
 	}, nil
 }
 
 type valueTemplateGenerator struct {
-	driver string
+	driver  string
+	columns []string // Added field to store column names
 }
 
 func (v *valueTemplateGenerator) generate(rowCount int, columnColunt int) string {
@@ -120,6 +121,20 @@ func (v *valueTemplateGenerator) generate(rowCount int, columnColunt int) string
 			valueTemplates[i] = fmt.Sprintf("(%s)", strings.Join(templates, ","))
 		}
 		return strings.Join(valueTemplates, ",")
+	case "godror", "oracle":
+		placeholders := make([]string, len(v.columns))
+		for i, col := range v.columns {
+			placeholders[i] = ":" + col
+		}
+		values := strings.Join(placeholders, ",")
+		var templates string
+		for i := 0; i < rowCount; i++ {
+			if i > 0 {
+				templates += ","
+			}
+			templates += fmt.Sprintf("(%s)", values)
+		}
+		return strings.TrimSuffix(templates, ",")
 	default:
 		// the point is to generate (?,?),(?,?)
 		questions := strings.Repeat("?,", columnColunt)
