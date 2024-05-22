@@ -21,9 +21,9 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/funcx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/util/reflectx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/util/symtab"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/funcx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/symtab"
 )
 
 const (

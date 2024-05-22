@@ -103,7 +103,7 @@ var (
 	}
 
 	packageMacros = map[string][]string{
-		"typex": {"github.com/apache/beam/sdks/v2/go/pkg/beam/core/typex"},
+		"typex": {"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"},
 	}
 )
 

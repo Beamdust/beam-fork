@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/apache/beam/sdks/v2/go/cmd/beamctl/cmd"
+	"github.com/Beamdust/beam-fork/go/cmd/beamctl/cmd"
 )
 
 func main() {

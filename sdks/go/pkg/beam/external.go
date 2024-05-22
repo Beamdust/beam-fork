@@ -16,9 +16,9 @@
 package beam
 
 import (
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/graphx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
 )
 
 // External defines a Beam external transform. The interpretation of this primitive is runner
