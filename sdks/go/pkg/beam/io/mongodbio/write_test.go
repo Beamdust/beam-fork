@@ -18,7 +18,7 @@ package mongodbio
 import (
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
 	"github.com/google/go-cmp/cmp"
 )
 

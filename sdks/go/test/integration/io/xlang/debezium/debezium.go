@@ -18,10 +18,10 @@
 package debezium
 
 import (
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/util/reflectx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/io/xlang/debeziumio"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/xlang/debeziumio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
 )
 
 // ReadPipeline creates a pipeline for debeziumio.Read PTransform and validates the result.

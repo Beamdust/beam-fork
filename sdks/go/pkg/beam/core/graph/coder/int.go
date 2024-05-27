@@ -19,7 +19,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/util/ioutilx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/ioutilx"
 )
 
 // EncodeUint64 encodes an uint64 in big endian format.

@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/io/xlang/bigqueryio"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/dataflow"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/passert"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/ptest"
-	"github.com/apache/beam/sdks/v2/go/test/integration"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/xlang/bigqueryio"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/dataflow"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/go/test/integration"
 )
 
 func init() {

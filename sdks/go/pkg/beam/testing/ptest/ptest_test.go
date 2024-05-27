@@ -18,7 +18,7 @@ package ptest
 import (
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
 )
 
 func TestMain(m *testing.M) {

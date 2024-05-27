@@ -15,7 +15,7 @@
 
 package task
 
-import "github.com/apache/beam/sdks/v2/go/pkg/beam"
+import "github.com/Beamdust/beam-fork/go/pkg/beam"
 
 func ApplyTransform(s beam.Scope, input beam.PCollection) beam.PCollection {
 	return beam.ParDo(s, multiplyBy10Fn, input)

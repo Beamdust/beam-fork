@@ -24,12 +24,12 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/xlangx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/transforms/xlang"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/transforms/xlang/python"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/xlangx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/xlang"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/xlang/python"
 )
 
 func init() {

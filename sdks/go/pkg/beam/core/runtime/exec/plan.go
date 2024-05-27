@@ -24,7 +24,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

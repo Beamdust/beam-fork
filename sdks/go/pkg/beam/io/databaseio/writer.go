@@ -24,8 +24,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
 )
 
 // Writer returns a row of data to be inserted into a table.

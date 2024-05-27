@@ -35,12 +35,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/container/tools"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/artifact"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/xlangx/expansionx"
-	pipepb "github.com/apache/beam/sdks/v2/go/pkg/beam/model/pipeline_v1"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/util/execx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/util/grpcx"
+	"github.com/Beamdust/beam-fork/go/container/tools"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/artifact"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/xlangx/expansionx"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/execx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/grpcx"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 )

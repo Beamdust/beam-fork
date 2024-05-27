@@ -33,17 +33,18 @@ import (
 	"bufio"
 	"context"
 	"fmt"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/sdf"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/io/filesystem"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/io/rtrackers/offsetrange"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/transforms/filter"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/x/beamx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/x/debug"
 	"io"
 	"reflect"
 	"strings"
+
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/sdf"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/rtrackers/offsetrange"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/filter"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/debug"
 )
 
 func init() {

@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
 )
 
 func TestMakeObject(t *testing.T) {

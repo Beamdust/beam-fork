@@ -47,10 +47,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/coder"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/xlangx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/xlangx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
 )
 
 func init() {

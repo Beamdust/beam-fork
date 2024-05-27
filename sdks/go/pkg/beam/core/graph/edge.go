@@ -20,12 +20,12 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/funcx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/coder"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/window"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/util/reflectx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/funcx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
 )
 
 // Opcode represents a primitive Beam instruction kind.

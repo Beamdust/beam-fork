@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/util/reflectx"
-	"github.com/apache/beam/sdks/v2/go/test/integration/primitives"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/go/test/integration/primitives"
 )
 
 // This file covers pipelines with features that aren't yet supported by Prism.

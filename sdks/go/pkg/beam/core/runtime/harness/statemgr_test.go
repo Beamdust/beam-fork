@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
-	fnpb "github.com/apache/beam/sdks/v2/go/pkg/beam/model/fnexecution_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
 )
 
 // fakeStateClient replicates the call and response protocol

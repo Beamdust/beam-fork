@@ -23,12 +23,12 @@ import (
 	"reflect"
 
 	// Library imports
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/exec"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/graphx/schema"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/sdf"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx/schema"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/sdf"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
 )
 
 func init() {

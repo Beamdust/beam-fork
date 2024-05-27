@@ -20,7 +20,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
 )
 
 // gzipReader is a wrapper around a gzip.Reader that also closes the underlying io.ReadCloser.

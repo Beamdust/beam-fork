@@ -15,8 +15,9 @@
 
 // Boot code for the Java SDK expansion service.
 // Contract:
-//   https://github.com/apache/beam/blob/master/model/job-management/src/main/proto/org/apache/beam/model/job_management/v1/beam_expansion_api.proto
-//   https://github.com/apache/beam/blob/master/model/job-management/src/main/proto/org/apache/beam/model/job_management/v1/beam_artifact_api.proto
+//
+//	https://github.com/apache/beam/blob/master/model/job-management/src/main/proto/org/apache/beam/model/job_management/v1/beam_expansion_api.proto
+//	https://github.com/apache/beam/blob/master/model/job-management/src/main/proto/org/apache/beam/model/job_management/v1/beam_artifact_api.proto
 package main
 
 import (
@@ -30,15 +31,15 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/util/execx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/execx"
 )
 
 // Args:
 //   - Expansion service port
 //   - Dependencies (for loading SchemaTransforms)
 //   - Config file path. Config file contains:
-//     - Allow-list
-//     - Per-transform dependencies config.
+//   - Allow-list
+//   - Per-transform dependencies config.
 var (
 	id               = flag.String("id", "", "Local identifier (required)")
 	port             = flag.Int("port", 0, "Port for the expansion service (required)")

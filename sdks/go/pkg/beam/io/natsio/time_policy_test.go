@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
 )
 
 func Test_timePolicy_TimestampFn(t *testing.T) {

@@ -21,10 +21,10 @@ import (
 	"context"
 	"io"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/coder"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/timers"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/timers"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
 )
 
 type userTimerAdapter struct {

@@ -18,8 +18,8 @@ package primitives
 import (
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/ptest"
-	"github.com/apache/beam/sdks/v2/go/test/integration"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/go/test/integration"
 )
 
 func TestTestStreamStrings(t *testing.T) {

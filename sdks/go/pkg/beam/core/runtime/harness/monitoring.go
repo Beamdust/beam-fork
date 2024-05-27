@@ -21,10 +21,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/metrics"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/exec"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/metricsx"
-	pipepb "github.com/apache/beam/sdks/v2/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/metrics"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/metricsx"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
 )
 
 type shortKey struct {

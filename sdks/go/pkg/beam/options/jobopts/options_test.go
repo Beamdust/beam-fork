@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/options/resource"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/options/resource"
 )
 
 func TestGetEndpoint(t *testing.T) {

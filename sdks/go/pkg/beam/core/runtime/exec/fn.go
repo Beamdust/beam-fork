@@ -21,13 +21,13 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/funcx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/mtime"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/window"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/sdf"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/funcx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/sdf"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
 )
 
 //go:generate specialize --input=fn_arity.tmpl

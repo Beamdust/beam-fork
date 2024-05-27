@@ -22,11 +22,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/io/filesystem/local"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/register"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/passert"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem/local"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
 )
 
 func TestMain(m *testing.M) {

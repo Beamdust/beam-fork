@@ -16,12 +16,13 @@
 package main
 
 import (
-	"beam.apache.org/learning/katas/core_transforms/map/pardo_onetomany/pkg/task"
 	"context"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/x/beamx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/x/debug"
+
+	"beam.apache.org/learning/katas/core_transforms/map/pardo_onetomany/pkg/task"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/debug"
 )
 
 func main() {

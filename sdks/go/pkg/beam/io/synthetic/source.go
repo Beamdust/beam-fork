@@ -29,10 +29,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/sdf"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/io/rtrackers/offsetrange"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/sdf"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/rtrackers/offsetrange"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
 )
 
 func init() {

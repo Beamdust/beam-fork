@@ -26,10 +26,10 @@ import (
 
 	"sync/atomic"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/options/resource"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/options/resource"
 )
 
 func init() {

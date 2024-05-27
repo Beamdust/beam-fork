@@ -32,14 +32,15 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/window"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/window/trigger"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/io/textio"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/x/beamx"
 	"strconv"
 	"strings"
+
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window/trigger"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/textio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
 )
 
 func main() {

@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/util/hooks"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/hooks"
 )
 
 func TestSampleInterval(t *testing.T) {

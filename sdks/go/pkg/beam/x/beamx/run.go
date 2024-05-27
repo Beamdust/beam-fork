@@ -20,22 +20,22 @@ import (
 	"context"
 
 	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/runners" // common runner flag.
+	"github.com/Beamdust/beam-fork/go/pkg/beam/runners" // common runner flag.
 
 	// Import the reflection-optimized runtime.
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/exec/optimized"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/io/filesystem/gcs"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/io/filesystem/local"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec/optimized"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem/gcs"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem/local"
 
 	// The imports here are for the side effect of runner registration.
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/dataflow"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/direct"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/dot"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/flink"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/prism"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/samza"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/spark"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/universal"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/dataflow"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/direct"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/dot"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/flink"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/prism"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/samza"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/spark"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/universal"
 )
 
 var (

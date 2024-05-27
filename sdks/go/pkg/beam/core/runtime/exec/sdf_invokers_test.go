@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/mtime"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/sdf"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/sdf"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
 	"github.com/google/go-cmp/cmp"
 )
 

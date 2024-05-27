@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
 )
 
 func TestPrint(t *testing.T) {

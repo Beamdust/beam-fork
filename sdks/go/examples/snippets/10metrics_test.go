@@ -19,7 +19,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
 )
 
 func TestMetricsPipeline(t *testing.T) {

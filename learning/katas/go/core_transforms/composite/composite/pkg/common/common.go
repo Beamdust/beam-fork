@@ -15,7 +15,7 @@
 
 package common
 
-import "github.com/apache/beam/sdks/v2/go/pkg/beam"
+import "github.com/Beamdust/beam-fork/go/pkg/beam"
 
 func CreateLines(s beam.Scope) beam.PCollection {
 	return beam.Create(s,

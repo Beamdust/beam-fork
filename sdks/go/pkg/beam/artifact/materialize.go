@@ -33,11 +33,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
-	jobpb "github.com/apache/beam/sdks/v2/go/pkg/beam/model/jobmanagement_v1"
-	pipepb "github.com/apache/beam/sdks/v2/go/pkg/beam/model/pipeline_v1"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/util/errorx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/util/grpcx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	jobpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/jobmanagement_v1"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/errorx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/grpcx"
 	"github.com/golang/protobuf/proto"
 )
 

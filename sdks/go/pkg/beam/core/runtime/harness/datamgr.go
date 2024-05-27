@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/exec"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/log"
-	fnpb "github.com/apache/beam/sdks/v2/go/pkg/beam/model/fnexecution_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

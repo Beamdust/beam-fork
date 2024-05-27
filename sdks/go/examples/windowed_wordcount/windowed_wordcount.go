@@ -60,14 +60,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/mtime"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/window"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/io/textio"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/register"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/x/beamx"
-	"github.com/apache/beam/sdks/v2/go/test/integration/wordcount"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/textio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/go/test/integration/wordcount"
 )
 
 var (

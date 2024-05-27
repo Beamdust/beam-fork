@@ -21,10 +21,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/container/tools"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/artifact"
-	fnpb "github.com/apache/beam/sdks/v2/go/pkg/beam/model/fnexecution_v1"
-	pipepb "github.com/apache/beam/sdks/v2/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/go/container/tools"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/artifact"
+	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
 	"github.com/golang/protobuf/proto"
 )
 

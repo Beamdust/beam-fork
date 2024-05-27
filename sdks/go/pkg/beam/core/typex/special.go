@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
 )
 
 // This file defines data types that programs use to indicate a

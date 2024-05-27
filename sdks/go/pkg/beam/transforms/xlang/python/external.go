@@ -21,9 +21,9 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/coder"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
 )
 
 const (

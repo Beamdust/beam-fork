@@ -22,10 +22,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/options/gcpopts"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/options/jobopts"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/runners/dataflow/dataflowlib"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/options/gcpopts"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/options/jobopts"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/dataflow/dataflowlib"
 )
 
 func TestDontUseFlagAsPipelineOption(t *testing.T) {

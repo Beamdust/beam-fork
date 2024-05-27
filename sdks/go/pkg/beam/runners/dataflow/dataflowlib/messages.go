@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/graphx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx"
 	"google.golang.org/api/googleapi"
 )
 

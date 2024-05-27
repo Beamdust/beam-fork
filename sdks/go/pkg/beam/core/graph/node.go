@@ -18,9 +18,9 @@ package graph
 import (
 	"fmt"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/coder"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/window"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
 )
 
 // Node is a typed connector describing the data type and encoding. A node

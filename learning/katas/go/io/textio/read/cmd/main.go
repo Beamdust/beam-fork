@@ -16,13 +16,14 @@
 package main
 
 import (
+	"context"
+
 	"beam.apache.org/learning/katas/io/textio/read/pkg/task"
 	"beam.apache.org/learning/katas/io/textio/read/testdata"
-	"context"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/x/beamx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/x/debug"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/debug"
 )
 
 var filePath = testdata.Path("countries.txt")
@@ -44,4 +45,3 @@ func main() {
 		log.Exitf(ctx, "Failed to execute job: %v", err)
 	}
 }
-

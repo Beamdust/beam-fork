@@ -16,9 +16,10 @@
 package common
 
 import (
-	"beam.apache.org/learning/katas/windowing/adding_timestamp/pardo/pkg/task"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
 	"time"
+
+	"beam.apache.org/learning/katas/windowing/adding_timestamp/pardo/pkg/task"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
 )
 
 var (

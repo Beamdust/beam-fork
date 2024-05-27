@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
 )
 
 // TODO(https://github.com/apache/beam/issues/18032): This file contains support for the handling of CoGBK

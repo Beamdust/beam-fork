@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
 	"google.golang.org/api/healthcare/v1"
 )
 

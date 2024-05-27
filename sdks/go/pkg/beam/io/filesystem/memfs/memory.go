@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/io/filesystem"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem"
 )
 
 func init() {

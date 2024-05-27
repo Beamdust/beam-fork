@@ -27,9 +27,9 @@ import (
 	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
 	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window/trigger"
 	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/typex"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/util/reflectx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/options/jobopts"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/options/jobopts"
 )
 
 func init() {

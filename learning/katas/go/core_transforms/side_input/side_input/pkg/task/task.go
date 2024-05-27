@@ -16,7 +16,7 @@
 package task
 
 import (
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
 )
 
 type Person struct {
@@ -43,4 +43,3 @@ func joinFn(person Person, citiesToCountriesIter func(*string, *string) bool, em
 		}
 	}
 }
-

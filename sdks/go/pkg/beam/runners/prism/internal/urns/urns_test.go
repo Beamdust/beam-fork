@@ -19,7 +19,7 @@ package urns
 import (
 	"testing"
 
-	pipepb "github.com/apache/beam/sdks/v2/go/pkg/beam/model/pipeline_v1"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
 )
 
 // Test_toUrn validates that generic urn extraction mechnanism works, which is used for

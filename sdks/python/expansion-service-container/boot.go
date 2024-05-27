@@ -28,8 +28,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/runtime/xlangx/expansionx"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/util/execx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/xlangx/expansionx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/execx"
 )
 
 var (

@@ -115,7 +115,7 @@ by requesting the specific pre-release version.
 For example, to request the first release candidate for 2.44.0:
 
 ```
-go get -d github.com/apache/beam/sdks/v2@v2.44.0-RC1
+go get -d github.com/Beamdust/beam-fork@v2.44.0-RC1
 ```
 
 With that, the Beam version in your `go.mod` will be the specified release candidate.

@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"reflect"
 
-	pipepb "github.com/apache/beam/sdks/v2/go/pkg/beam/model/pipeline_v1"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/runners/prism/internal/urns"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/prism/internal/urns"
 	"google.golang.org/protobuf/proto"
 )
 

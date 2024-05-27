@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/typex"
-	fnpb "github.com/apache/beam/sdks/v2/go/pkg/beam/model/fnexecution_v1"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/runners/prism/internal/engine"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/prism/internal/engine"
 	"golang.org/x/exp/slog"
 )
 

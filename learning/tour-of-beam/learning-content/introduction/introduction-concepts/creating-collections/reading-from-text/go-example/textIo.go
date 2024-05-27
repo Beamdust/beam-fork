@@ -33,13 +33,13 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/io/filesystem/gcs"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/io/textio"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/log"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/transforms/filter"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/transforms/top"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem/gcs"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/textio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/filter"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/top"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
 )
 
 var (

@@ -20,12 +20,12 @@ import (
 	"log"
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/dataflow"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/flink"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/universal"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/ptest"
-	"github.com/apache/beam/sdks/v2/go/test/integration"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/dataflow"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/flink"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/universal"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/go/test/integration"
 )
 
 var expansionAddr string // Populate with expansion address labelled "python_transform".

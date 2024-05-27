@@ -18,19 +18,20 @@ package spannerio
 import (
 	"context"
 	"flag"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/options/gcpopts"
-	_ "github.com/apache/beam/sdks/v2/go/pkg/beam/runners/dataflow"
-	"github.com/apache/beam/sdks/v2/go/test/integration"
 	"os"
 	"reflect"
 	"testing"
 
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/io/spannerio"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/options/gcpopts"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/dataflow"
+	"github.com/Beamdust/beam-fork/go/test/integration"
+
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/spannerio"
 
 	"cloud.google.com/go/spanner"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/passert"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
 )
 
 func TestSpannerIO_QueryBatch(t *testing.T) {

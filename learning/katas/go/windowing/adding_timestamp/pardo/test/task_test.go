@@ -16,12 +16,13 @@
 package test
 
 import (
+	"testing"
+
 	"beam.apache.org/learning/katas/windowing/adding_timestamp/pardo/pkg/common"
 	"beam.apache.org/learning/katas/windowing/adding_timestamp/pardo/pkg/task"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/core/graph/mtime"
-	"github.com/apache/beam/sdks/v2/go/pkg/beam/testing/ptest"
-	"testing"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
 )
 
 func TestApplyTransform(t *testing.T) {
