@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
-	jobpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/jobmanagement_v1"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/util/errorx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
+	jobpb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/jobmanagement_v1"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/errorx"
 )
 
 // Commit commits a manifest with the given staged artifacts. It returns the

@@ -21,7 +21,7 @@ import (
 
 	"runtime/debug"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
 )
 
 //go:generate specialize --input=calls.tmpl

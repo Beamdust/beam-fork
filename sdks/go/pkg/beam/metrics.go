@@ -18,7 +18,7 @@ package beam
 import (
 	"context"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/metrics"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/metrics"
 )
 
 // Implementation Note: The wrapping of the embedded methods

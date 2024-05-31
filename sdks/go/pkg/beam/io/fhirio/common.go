@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
 	"google.golang.org/api/googleapi"
 	"google.golang.org/api/healthcare/v1"
 	"google.golang.org/api/option"

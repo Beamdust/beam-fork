@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/util/errorx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/errorx"
 )
 
 // testSimpleError tests for a simple case that doesn't panic

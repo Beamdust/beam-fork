@@ -19,12 +19,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx/schema"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/exec"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/graphx/schema"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/reflectx"
 )
 
 type myTestTypeIter1 struct {

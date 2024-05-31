@@ -19,9 +19,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/vet/testpipeline"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/vet/testpipeline"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
 )
 
 func TestEvaluate(t *testing.T) {

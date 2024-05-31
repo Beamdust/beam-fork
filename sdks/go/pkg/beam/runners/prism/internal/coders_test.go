@@ -21,11 +21,11 @@ import (
 	"math"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/prism/internal/urns"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
+	pipepb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/prism/internal/urns"
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/protobuf/testing/protocmp"
 )

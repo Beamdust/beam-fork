@@ -18,8 +18,8 @@ package stats
 import (
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/reflectx"
 )
 
 // Mean returns the arithmetic mean (or average) of the elements in a collection.

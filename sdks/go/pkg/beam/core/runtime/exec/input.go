@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/funcx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/funcx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
 )
 
 // TODO(herohde) 4/26/2017: SideInput representation? We want it to be amenable

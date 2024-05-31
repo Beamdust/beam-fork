@@ -34,7 +34,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/Beamdust/beam-fork/go/test/integration/internal/containers"
+	"github.com/Beamdust/beam-fork/v3/go/test/integration/internal/containers"
 )
 
 const (

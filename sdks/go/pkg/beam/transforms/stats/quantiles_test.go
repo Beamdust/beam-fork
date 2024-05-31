@@ -18,11 +18,11 @@ package stats
 import (
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/ptest"
 	"github.com/google/go-cmp/cmp"
 )
 

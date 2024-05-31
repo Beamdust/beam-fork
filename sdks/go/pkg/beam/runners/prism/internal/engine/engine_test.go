@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/options/jobopts"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/prism/internal"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/prism/internal/engine"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/prism/internal/jobservices"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/universal"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
-	"github.com/Beamdust/beam-fork/go/test/integration/primitives"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/options/jobopts"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/prism/internal"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/prism/internal/engine"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/prism/internal/jobservices"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/universal"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/v3/go/test/integration/primitives"
 )
 
 func init() {

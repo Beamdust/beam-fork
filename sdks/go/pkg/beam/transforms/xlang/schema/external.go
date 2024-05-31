@@ -17,9 +17,9 @@
 package schema
 
 import (
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/xlangx"
-	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/xlangx"
+	pipepb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/pipeline_v1"
 	"github.com/golang/protobuf/proto"
 )
 

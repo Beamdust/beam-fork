@@ -18,9 +18,9 @@ package dataframe
 import (
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/xlang/dataframe"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/transforms/xlang/dataframe"
 )
 
 func init() {

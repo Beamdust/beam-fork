@@ -18,9 +18,9 @@ package passert
 import (
 	"fmt"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
 )
 
 // Count verifies the given PCollection<T> has the specified number of elements.

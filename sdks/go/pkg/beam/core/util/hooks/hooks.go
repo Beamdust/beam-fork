@@ -34,10 +34,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
-	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
+	fnpb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/fnexecution_v1"
 )
 
 var defaultRegistry = newRegistry(runtime.GlobalOptions)

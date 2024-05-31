@@ -20,12 +20,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/metrics"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/options/jobopts"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
-	"github.com/Beamdust/beam-fork/go/test/integration"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/metrics"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/options/jobopts"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/v3/go/test/integration"
 )
 
 // Concept: Testing

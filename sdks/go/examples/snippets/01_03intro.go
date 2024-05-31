@@ -18,8 +18,8 @@ package snippets
 import (
 	"flag"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/io/textio"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/textio"
 )
 
 // PipelineConstruction contains snippets for the initial sections of

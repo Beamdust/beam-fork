@@ -21,11 +21,11 @@ import (
 
 	"encoding/json"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/funcx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/funcx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
 )
 
 var (

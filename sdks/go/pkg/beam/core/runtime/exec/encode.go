@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/reflectx"
 )
 
 // Encoder is a uniform custom encoder interface. It wraps various

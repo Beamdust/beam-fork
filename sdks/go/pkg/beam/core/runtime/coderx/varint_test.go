@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/reflectx"
 )
 
 func TestVarIntZ(t *testing.T) {

@@ -23,9 +23,9 @@ import (
 	"testing"
 
 	"cloud.google.com/go/datastore"
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/ptest"
 	"google.golang.org/api/option"
 )
 

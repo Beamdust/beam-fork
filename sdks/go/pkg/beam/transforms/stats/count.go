@@ -17,8 +17,8 @@
 package stats
 
 import (
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
 )
 
 // Count counts the number of appearances of each element in a collection. It

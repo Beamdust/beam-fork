@@ -21,7 +21,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
 )
 
 // StateSampler tracks the state of a bundle.

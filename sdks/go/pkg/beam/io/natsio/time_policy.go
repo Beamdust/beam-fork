@@ -18,7 +18,7 @@ package natsio
 import (
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/mtime"
 )
 
 type timePolicy int

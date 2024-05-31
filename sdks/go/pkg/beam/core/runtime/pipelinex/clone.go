@@ -16,8 +16,8 @@
 package pipelinex
 
 import (
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
-	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/reflectx"
+	pipepb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/pipeline_v1"
 )
 
 func shallowClonePipeline(p *pipepb.Pipeline) *pipepb.Pipeline {

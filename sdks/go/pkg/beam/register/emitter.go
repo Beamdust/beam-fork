@@ -19,9 +19,9 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/sdf"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/exec"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/sdf"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
 )
 
 type emit struct {

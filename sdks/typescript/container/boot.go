@@ -25,10 +25,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Beamdust/beam-fork/go/container/tools"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/artifact"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/util/execx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/util/grpcx"
+	"github.com/Beamdust/beam-fork/v3/go/container/tools"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/artifact"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/execx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/grpcx"
 )
 
 var (

@@ -24,16 +24,16 @@ import (
 	"time"
 
 	"cloud.google.com/go/pubsub"
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window/trigger"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/io/pubsubio"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/options/gcpopts"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/dataflow"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/periodic"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/util/pubsubx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window/trigger"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/pubsubio"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/options/gcpopts"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/register"
+	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/dataflow"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/transforms/periodic"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/pubsubx"
 )
 
 func init() {

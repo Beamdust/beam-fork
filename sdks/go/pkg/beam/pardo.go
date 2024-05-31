@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/graphx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
 )
 
 func addParDoCtx(err error, s Scope) error {

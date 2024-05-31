@@ -18,8 +18,8 @@ package coderx
 import (
 	"encoding/binary"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/reflectx"
 )
 
 // Fixed-sized custom coders for integers.

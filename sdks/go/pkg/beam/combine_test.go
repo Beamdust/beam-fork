@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
 )
 
 // foolFn is a no-op CombineFn.

@@ -61,14 +61,14 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/io/textio"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/prism"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/stats"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/textio"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/prism"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/transforms/stats"
 
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem/gcs"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem/local"
+	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/filesystem/gcs"
+	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/filesystem/local"
 )
 
 var wordRE = regexp.MustCompile(`[a-zA-Z]+('[a-z])?`)

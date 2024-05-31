@@ -48,10 +48,10 @@ package kafkaio
 import (
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/xlangx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/xlangx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/reflectx"
 )
 
 func init() {

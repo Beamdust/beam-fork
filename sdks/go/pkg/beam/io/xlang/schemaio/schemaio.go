@@ -26,10 +26,10 @@ import (
 	"bytes"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx/schema"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/graphx/schema"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
 	"google.golang.org/protobuf/proto"
 )
 

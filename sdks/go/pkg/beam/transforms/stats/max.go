@@ -16,7 +16,7 @@
 package stats
 
 import (
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
 )
 
 //go:generate specialize --input=max_switch.tmpl --x=integers,floats

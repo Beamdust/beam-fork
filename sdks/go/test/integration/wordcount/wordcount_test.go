@@ -19,14 +19,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/metrics"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/dataflow"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/flink"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/samza"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/spark"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
-	"github.com/Beamdust/beam-fork/go/test/integration"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/metrics"
+	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/dataflow"
+	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/flink"
+	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/samza"
+	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/spark"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/v3/go/test/integration"
 )
 
 func TestWordCount(t *testing.T) {

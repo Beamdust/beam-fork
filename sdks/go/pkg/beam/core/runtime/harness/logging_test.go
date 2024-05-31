@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/metrics"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
-	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/metrics"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
+	fnpb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/fnexecution_v1"
 )
 
 func TestLogger(t *testing.T) {

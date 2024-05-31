@@ -19,8 +19,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec"
-	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/exec"
+	fnpb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/fnexecution_v1"
 )
 
 func makeTestReStream(value any) exec.ReStream {

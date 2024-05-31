@@ -110,7 +110,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/util/shimx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/shimx"
 )
 
 func anotherFn(v shimx.Emitter) string {

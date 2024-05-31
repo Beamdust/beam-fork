@@ -22,12 +22,12 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/ioutilx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/ioutilx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
 )
 
 // NOTE(herohde) 4/30/2017: The main complication is CoGBK results, which have

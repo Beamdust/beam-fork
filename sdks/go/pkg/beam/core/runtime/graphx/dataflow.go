@@ -18,13 +18,13 @@ package graphx
 import (
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx/schema"
-	v1pb "github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx/v1"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/protox"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
-	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/graphx/schema"
+	v1pb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/graphx/v1"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/protox"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
+	pipepb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/pipeline_v1"
 )
 
 // TODO(herohde) 7/17/2018: move CoderRef to dataflowlib once Dataflow

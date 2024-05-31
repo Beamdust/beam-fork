@@ -16,12 +16,12 @@
 package inference
 
 import (
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/dataflow"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/flink"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/universal"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/xlang/inference"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/dataflow"
+	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/flink"
+	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/universal"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/transforms/xlang/inference"
 )
 
 func SklearnInference(expansionAddr string) *beam.Pipeline {
