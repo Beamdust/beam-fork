@@ -45,7 +45,7 @@ This section lays out the superset of all documentation that is expected to be m
          <ul>
             <li><a href="https://beam.apache.org/releases/javadoc/current/overview-summary.html">Java doc</a>
             <li><a href="https://beam.apache.org/releases/pydoc/current/">Python doc</a>
-            <li><a href="https://pkg.go.dev/github.com/Beamdust/beam-fork/go/pkg/beam">Go doc</a>
+            <li><a href="https://pkg.go.dev/github.com/Beamdust/beam-fork/v3/go/pkg/beam">Go doc</a>
          </ul>
       </td>
    </tr>

@@ -18,8 +18,8 @@ package task
 import (
 	"strings"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/io/textio"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/textio"
 )
 
 // Read reads from filename(s) specified by a glob string and a returns a PCollection<string>.

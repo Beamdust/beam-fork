@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"beam.apache.org/learning/katas/windowing/adding_timestamp/pardo/pkg/task"
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
 )
 
 var (

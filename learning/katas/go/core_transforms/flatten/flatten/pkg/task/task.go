@@ -15,7 +15,7 @@
 
 package task
 
-import "github.com/Beamdust/beam-fork/go/pkg/beam"
+import "github.com/Beamdust/beam-fork/v3/go/pkg/beam"
 
 func ApplyTransform(s beam.Scope, aInputs beam.PCollection, bInputs beam.PCollection) beam.PCollection {
 	return beam.Flatten(s, aInputs, bInputs)

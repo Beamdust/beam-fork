@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window"
 )
 
 func ApplyTransform(s beam.Scope, input beam.PCollection) beam.PCollection {

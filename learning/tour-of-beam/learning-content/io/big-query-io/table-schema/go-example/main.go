@@ -33,11 +33,11 @@ import (
 	"log"
 	/*
 	   "context"
-	   beam_log "github.com/Beamdust/beam-fork/go/pkg/beam/log"
-	   "github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
+	   beam_log "github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
+	   "github.com/Beamdust/beam-fork/v3/go/pkg/beam/x/beamx"
 	   "cloud.google.com/go/bigquery"
-	   "github.com/Beamdust/beam-fork/go/pkg/beam"
-	   "github.com/Beamdust/beam-fork/go/pkg/beam/io/bigqueryio"
+	   "github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	   "github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/bigqueryio"
 	*/)
 
 type User struct {

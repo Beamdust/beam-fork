@@ -30,10 +30,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/x/beamx"
 )
 
 func main() {
