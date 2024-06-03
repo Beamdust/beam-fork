@@ -22,9 +22,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	jobpb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/jobmanagement_v1"
-	pipepb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/pipeline_v1"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/prism/internal/urns"
+	jobpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/jobmanagement_v1"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/prism/internal/urns"
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slog"
 	"google.golang.org/protobuf/proto"

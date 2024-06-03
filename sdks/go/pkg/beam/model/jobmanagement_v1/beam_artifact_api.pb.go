@@ -28,7 +28,7 @@
 package jobmanagement_v1
 
 import (
-	pipeline_v1 "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/pipeline_v1"
+	pipeline_v1 "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

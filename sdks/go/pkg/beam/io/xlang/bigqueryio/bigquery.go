@@ -88,10 +88,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/xlangx"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/xlang/schemaio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/xlangx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/xlang/schemaio"
 )
 
 type createDisposition string

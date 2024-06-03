@@ -18,9 +18,9 @@ package fhirio
 import (
 	"testing"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/passert"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
 	"google.golang.org/api/healthcare/v1"
 )
 

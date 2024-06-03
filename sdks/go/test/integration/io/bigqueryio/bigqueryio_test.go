@@ -25,13 +25,13 @@ import (
 	"time"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/bigqueryio"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/options/gcpopts"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/register"
-	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/dataflow"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/ptest"
-	"github.com/Beamdust/beam-fork/v3/go/test/integration"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/bigqueryio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/options/gcpopts"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/dataflow"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/go/test/integration"
 )
 
 func init() {

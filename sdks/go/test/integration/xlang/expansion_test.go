@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/xlangx/expansionx"
-	"github.com/Beamdust/beam-fork/v3/go/test/integration"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/xlangx/expansionx"
+	"github.com/Beamdust/beam-fork/go/test/integration"
 )
 
 const (

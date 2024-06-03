@@ -29,13 +29,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Beamdust/beam-fork/v3/go/examples/native_wordcap/nativepubsubio"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/options/gcpopts"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/pubsubx"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/x/beamx"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/x/debug"
+	"github.com/Beamdust/beam-fork/go/examples/native_wordcap/nativepubsubio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/options/gcpopts"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/pubsubx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/debug"
 )
 
 var (

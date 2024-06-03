@@ -27,9 +27,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/metrics"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/metrics"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
 )
 
 const (

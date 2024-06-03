@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/filesystem/local"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/passert"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem/local"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
 	"github.com/xitongsys/parquet-go-source/local"
 	"github.com/xitongsys/parquet-go/reader"
 )

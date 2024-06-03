@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"cloud.google.com/go/spanner"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/ptest"
-	spannertest "github.com/Beamdust/beam-fork/v3/go/test/integration/io/spannerio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	spannertest "github.com/Beamdust/beam-fork/go/test/integration/io/spannerio"
 	"google.golang.org/api/iterator"
 )
 

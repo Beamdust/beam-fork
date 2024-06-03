@@ -19,7 +19,7 @@ import (
 	"container/heap"
 	"fmt"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
 )
 
 // holdHeap orders holds based on their timestamps

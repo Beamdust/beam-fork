@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/mongodbio"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/x/beamx"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/x/debug"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/mongodbio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/debug"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

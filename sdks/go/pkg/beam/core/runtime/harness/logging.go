@@ -23,11 +23,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/metrics"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/hooks"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
-	fnpb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/fnexecution_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/metrics"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/hooks"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

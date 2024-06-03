@@ -18,9 +18,9 @@ package engine
 import (
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/mtime"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
 )
 
 // We define our own element wrapper and similar to avoid depending on the protos within the

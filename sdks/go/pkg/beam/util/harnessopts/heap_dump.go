@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/hooks"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/hooks"
 )
 
 const (

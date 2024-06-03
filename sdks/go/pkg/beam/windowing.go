@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window/trigger"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window/trigger"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
 )
 
 type WindowIntoOption interface {

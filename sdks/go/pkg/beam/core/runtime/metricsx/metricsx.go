@@ -21,9 +21,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/metrics"
-	pipepb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/metrics"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
 	"golang.org/x/exp/slog"
 )
 

@@ -18,8 +18,8 @@ package cmd
 import (
 	"path/filepath"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/artifact"
-	jobpb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/jobmanagement_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/artifact"
+	jobpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/jobmanagement_v1"
 	"github.com/spf13/cobra"
 )
 

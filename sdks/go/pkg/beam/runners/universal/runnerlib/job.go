@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Beamdust/beam-fork/v3/go/container/tools"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/hooks"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
-	jobpb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/jobmanagement_v1"
-	pipepb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/go/container/tools"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/hooks"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	jobpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/jobmanagement_v1"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
 	"github.com/golang/protobuf/proto"
 )
 

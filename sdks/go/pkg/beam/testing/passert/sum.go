@@ -18,8 +18,8 @@ package passert
 import (
 	"fmt"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
 )
 
 // Sum validates that the sum and count of elements in the incoming PCollection<int> is

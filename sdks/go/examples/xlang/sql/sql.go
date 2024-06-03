@@ -30,10 +30,10 @@ import (
 	"log"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/passert"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/transforms/sql"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/sql"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
 )
 
 var (

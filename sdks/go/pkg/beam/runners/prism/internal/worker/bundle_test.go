@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/prism/internal/engine"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/prism/internal/engine"
 )
 
 func TestBundle_ProcessOn(t *testing.T) {

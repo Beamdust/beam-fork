@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/sdf"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/state"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/timers"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/sdf"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/state"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/timers"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
 )
 
 func TestNewDoFn(t *testing.T) {

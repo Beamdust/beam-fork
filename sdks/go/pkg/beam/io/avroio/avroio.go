@@ -21,11 +21,11 @@ import (
 	"encoding/json"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/fileio"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/filesystem"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/fileio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
 	"github.com/linkedin/goavro/v2"
 )
 

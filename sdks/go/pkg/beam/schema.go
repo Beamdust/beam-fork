@@ -20,8 +20,8 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/graphx/schema"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx/schema"
 )
 
 // RegisterSchemaProvider allows pipeline authors to provide special handling

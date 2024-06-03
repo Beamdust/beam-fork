@@ -21,7 +21,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/grpcx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/grpcx"
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 )

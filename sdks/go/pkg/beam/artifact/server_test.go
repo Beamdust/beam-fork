@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
-	jobpb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/jobmanagement_v1"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/grpcx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	jobpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/jobmanagement_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/grpcx"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

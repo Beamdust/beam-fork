@@ -20,7 +20,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/util/ioutilx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/ioutilx"
 )
 
 // EncodeDouble encodes a float64 in big endian format.

@@ -21,13 +21,13 @@ import (
 	"os"
 	"regexp"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/textio"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/register"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/transforms/top"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/x/beamx"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/x/debug"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/textio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/top"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/debug"
 )
 
 // TODO(herohde) 5/30/2017: fully implement https://github.com/apache/beam/blob/master/examples/java/src/main/java/org/apache/beam/examples/complete/AutoComplete.java

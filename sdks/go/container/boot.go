@@ -28,17 +28,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/container/tools"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/artifact"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime"
+	"github.com/Beamdust/beam-fork/go/container/tools"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/artifact"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime"
 
 	// Import gcs filesystem so that it can be used to upload heap dumps
-	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/filesystem/gcs"
-	fnpb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/fnexecution_v1"
-	pipepb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/pipeline_v1"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/diagnostics"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/execx"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/util/grpcx"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem/gcs"
+	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/diagnostics"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/execx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/util/grpcx"
 )
 
 var (

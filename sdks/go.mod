@@ -18,7 +18,7 @@
 // containers, as well as the entire Go SDK. Placing this file in the repository
 // root is not possible because it causes conflicts with a pre-existing vendor
 // directory.
-module github.com/Beamdust/beam-fork/v3
+module github.com/Beamdust/beam-fork
 
 go 1.20
 

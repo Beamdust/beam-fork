@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/filesystem"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem"
 	"github.com/google/go-cmp/cmp"
 )
 

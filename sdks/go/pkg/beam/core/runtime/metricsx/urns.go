@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
 )
 
 // Urn is an enum type for representing urns of metrics and monitored states.

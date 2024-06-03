@@ -21,18 +21,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/graphx"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
-	pipepb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
 	"golang.org/x/oauth2/google"
 	df "google.golang.org/api/dataflow/v1b3"
 	"google.golang.org/protobuf/proto"
 
 	// Importing to get the side effect of the remote execution hook. See init().
-	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/harness/init"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/harness/init"
 )
 
 // JobOptions capture the various options for submitting jobs

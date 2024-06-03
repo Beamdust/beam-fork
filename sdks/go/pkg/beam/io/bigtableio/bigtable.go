@@ -24,8 +24,8 @@ import (
 	"reflect"
 
 	"cloud.google.com/go/bigtable"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
 )
 
 func init() {

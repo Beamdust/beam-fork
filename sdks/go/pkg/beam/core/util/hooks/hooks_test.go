@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime"
-	fnpb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/fnexecution_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime"
+	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
 	"github.com/google/go-cmp/cmp"
 )
 

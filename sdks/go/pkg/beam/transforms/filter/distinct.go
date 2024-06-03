@@ -16,7 +16,7 @@
 package filter
 
 import (
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
 )
 
 // Distinct removes all duplicates from a collection, under coder equality. It

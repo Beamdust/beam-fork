@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/mtime"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/exec"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
 )
 
 type myTestTypeEmitter1 struct {

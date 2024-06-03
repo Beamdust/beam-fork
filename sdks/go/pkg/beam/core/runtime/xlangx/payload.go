@@ -19,10 +19,10 @@ import (
 	"bytes"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/graphx/schema"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
-	pipepb "github.com/Beamdust/beam-fork/v3/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx/schema"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -16,7 +16,7 @@
 package graphx
 
 import (
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
 )
 
 // NamedEdge is a named MultiEdge.

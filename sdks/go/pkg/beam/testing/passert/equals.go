@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
 )
 
 // Equals verifies the given collection has the same values as the given

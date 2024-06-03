@@ -18,8 +18,8 @@ package primitives
 import (
 	"testing"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/testing/ptest"
-	"github.com/Beamdust/beam-fork/v3/go/test/integration"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/go/test/integration"
 )
 
 func TestTimers_EventTime_Bounded(t *testing.T) {

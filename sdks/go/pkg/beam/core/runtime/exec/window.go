@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/mtime"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
 )
 
 // WindowInto places each element in one or more windows.

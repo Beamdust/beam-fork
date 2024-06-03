@@ -22,13 +22,13 @@ import (
 
 	"fmt"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/bigqueryio"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/io/textio"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/options/gcpopts"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/register"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/bigqueryio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/io/textio"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/options/gcpopts"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
 )
 
 // See: https://github.com/apache/beam/blob/master/examples/java/src/main/java/org/apache/beam/examples/cookbook/JoinExamples.java

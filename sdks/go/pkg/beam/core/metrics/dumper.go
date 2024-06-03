@@ -21,7 +21,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
 )
 
 // DumpToLog is a debugging function that outputs all metrics available locally

@@ -24,11 +24,11 @@ package sql
 import (
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/graph"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/xlangx"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/transforms/sql/sqlx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/xlangx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/sql/sqlx"
 )
 
 // Option is the base type of all the SQL transform options.

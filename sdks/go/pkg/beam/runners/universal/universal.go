@@ -20,18 +20,18 @@ package universal
 import (
 	"context"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/graphx"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/xlangx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/xlangx"
 
 	// Importing to get the side effect of the remote execution hook. See init().
-	_ "github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/harness/init"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/internal/errors"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/log"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/options/jobopts"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/universal/extworker"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/universal/runnerlib"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/runners/vet"
+	_ "github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/harness/init"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/options/jobopts"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/universal/extworker"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/universal/runnerlib"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/vet"
 	"github.com/golang/protobuf/proto"
 )
 

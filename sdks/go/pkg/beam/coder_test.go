@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam/core/runtime/graphx/schema"
+	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx/schema"
 )
 
 func TestJSONCoder(t *testing.T) {
