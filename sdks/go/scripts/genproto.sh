@@ -114,6 +114,7 @@ function gen_go_sdk_protos() {
 
   protoc \
     "${INCLUDES[@]}" \
+    --experimental_allow_proto3_optional \
     --go_opt=module=github.com/Beamdust/beam-fork/sdks/v3 \
     --go-grpc_opt=module=github.com/Beamdust/beam-fork/sdks/v3 \
     --go_out=$PKG_MAP:. \
@@ -142,6 +143,7 @@ function gen_beam_model_protos() {
   do
     protoc \
       "${INCLUDES[@]}" \
+      --experimental_allow_proto3_optional \
       --go_opt=module=github.com/Beamdust/beam-fork/sdks/v3 \
       --go-grpc_opt=module=github.com/Beamdust/beam-fork/sdks/v3 \
       --go_out="$PROJECT_ROOT/sdks" \
