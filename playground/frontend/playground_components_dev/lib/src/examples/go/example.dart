@@ -52,7 +52,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
 )
 
 func OutsideOfSections() {

@@ -16,7 +16,7 @@
 package task
 
 import (
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
 )
 
 func ApplyTransform(s beam.Scope, input beam.PCollection) (beam.PCollection, beam.PCollection) {

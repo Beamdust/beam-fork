@@ -16,7 +16,7 @@
 package task
 
 import (
-	"github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/go/pkg/beam"
 )
 
 type Person struct {

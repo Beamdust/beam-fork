@@ -15,7 +15,7 @@
 
 package task
 
-import "github.com/Beamdust/beam-fork/v3/go/pkg/beam"
+import "github.com/Beamdust/beam-fork/go/pkg/beam"
 
 const (
 	Player1 = "Player 1"
