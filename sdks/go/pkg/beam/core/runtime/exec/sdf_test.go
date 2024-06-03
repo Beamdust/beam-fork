@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/sdf"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/io/rtrackers/offsetrange"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/sdf"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/io/rtrackers/offsetrange"
 	"github.com/google/go-cmp/cmp"
 )
 

@@ -24,8 +24,8 @@ import (
 	"runtime/pprof"
 	"runtime/trace"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/hooks"
-	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/util/hooks"
+	fnpb "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/model/fnexecution_v1"
 )
 
 // CaptureHook is used by the harness to have the runner

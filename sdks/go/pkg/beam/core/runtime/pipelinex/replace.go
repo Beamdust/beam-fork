@@ -25,9 +25,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
-	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/internal/errors"
+	pipepb "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/model/pipeline_v1"
 	"github.com/golang/protobuf/proto"
 )
 

@@ -20,12 +20,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx/schema"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/reflectx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/runtime"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/runtime/exec"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/runtime/graphx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/runtime/graphx/schema"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/util/reflectx"
 )
 
 func TestRegister_CompleteDoFn_WrapsStruct(t *testing.T) {

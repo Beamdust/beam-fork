@@ -35,9 +35,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/io/textio"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/io/textio"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/x/beamx"
 )
 
 type Transaction struct {

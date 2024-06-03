@@ -16,7 +16,7 @@
 package stats
 
 import (
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
 )
 
 //go:generate specialize --input=sum_switch.tmpl --x=integers,floats

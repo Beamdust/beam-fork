@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/container/tools"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/container/tools"
 )
 
 func TestBuildOptionsEmpty(t *testing.T) {

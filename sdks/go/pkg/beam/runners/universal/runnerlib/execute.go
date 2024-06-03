@@ -23,15 +23,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/metrics"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/graphx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/metricsx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/protox"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
-	jobpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/jobmanagement_v1"
-	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/util/grpcx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/metrics"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/runtime/graphx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/runtime/metricsx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/util/protox"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/log"
+	jobpb "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/model/jobmanagement_v1"
+	pipepb "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/util/grpcx"
 )
 
 // Execute executes a pipeline on the universal runner serving the given endpoint.

@@ -20,12 +20,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/state"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/timers"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/periodic"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/state"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/timers"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/transforms/periodic"
 )
 
 // Based on https://github.com/apache/beam/blob/master/runners/flink/src/test/java/org/apache/beam/runners/flink/PortableTimersExecutionTest.java

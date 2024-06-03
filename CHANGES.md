@@ -1087,7 +1087,7 @@ as a workaround, a copy of "old" `CountingSource` class should be placed into a 
 ## Breaking Changes
 
 * Go SDK pipelines require new import paths to use this release due to migration to Go Modules.
-  * `go.mod` files will need to change to require `github.com/Beamdust/beam-fork`.
+  * `go.mod` files will need to change to require `github.com/Beamdust/beam-fork/sdks/v3`.
   * Code depending on beam imports need to include v2 on the module path.
     * Fix by'v2' to the import paths, turning  `.../sdks/go/...` to `.../sdks/v2/go/...`
   * No other code change should be required to use v2.33.0 of the Go SDK.

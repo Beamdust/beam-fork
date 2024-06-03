@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/internal/errors"
 )
 
 // ValidateKVType panics if the type of the PCollection is not KV<A,B>.

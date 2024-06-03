@@ -18,8 +18,8 @@ package common
 import (
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/mtime"
 )
 
 var (

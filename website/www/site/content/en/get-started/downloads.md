@@ -55,11 +55,11 @@ at scale.
 
 The Go SDK is accessible via Go Modules and calling `go get` from a module subdirectory:
 
-     go get github.com/Beamdust/beam-fork/go/pkg/beam
+     go get github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam
 
 Specific versions can be depended on similarly:
 
-     go get github.com/Beamdust/beam-fork@v{{< param release_latest >}}/go/pkg/beam
+     go get github.com/Beamdust/beam-fork/sdks/v3@v{{< param release_latest >}}/go/pkg/beam
 
 ## Downloading source code
 

@@ -44,8 +44,8 @@ import (
 	"time"
 
 	// common runner flag.
-	"github.com/Beamdust/beam-fork/go/pkg/beam/options/jobopts"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/options/jobopts"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/testing/ptest"
 )
 
 // Filters for temporarily skipping integration tests. All filters are regex

@@ -28,12 +28,12 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/protox"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/util/protox"
 
-	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
+	pipepb "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/model/pipeline_v1"
 )
 
 const urn = "beam:transform:teststream:v1"

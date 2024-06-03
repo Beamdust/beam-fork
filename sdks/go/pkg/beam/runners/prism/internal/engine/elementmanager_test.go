@@ -22,11 +22,11 @@ import (
 	"io"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/runtime/exec"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/typex"
 	"github.com/google/go-cmp/cmp"
 )
 

@@ -22,8 +22,8 @@ import (
 	"io"
 	"sync/atomic"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/internal/errors"
 )
 
 // DataSink is a Node that writes element data to the data service..

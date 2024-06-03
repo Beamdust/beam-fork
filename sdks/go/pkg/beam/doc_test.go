@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/io/textio"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/direct"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/io/textio"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/runners/direct"
 )
 
 func Example_gettingStarted() {

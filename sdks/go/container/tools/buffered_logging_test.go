@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
+	fnpb "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/model/fnexecution_v1"
 )
 
 func TestBufferedLogger(t *testing.T) {

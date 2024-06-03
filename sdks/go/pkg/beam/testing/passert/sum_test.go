@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/testing/ptest"
 )
 
 func TestSum_good(t *testing.T) {

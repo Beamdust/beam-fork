@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/typex"
 )
 
 func makeWindowedCoder() *coder.Coder {

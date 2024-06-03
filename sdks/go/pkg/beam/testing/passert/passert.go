@@ -22,13 +22,13 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/filter"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/transforms/filter"
 )
 
-//go:generate go install github.com/Beamdust/beam-fork/go/cmd/starcgen
+//go:generate go install github.com/Beamdust/beam-fork/sdks/v3/go/cmd/starcgen
 //go:generate starcgen --package=passert --identifiers=diffFn,failFn,failIfBadEntries,failKVFn,failGBKFn,hashFn,sumFn,errFn,elmCountCombineFn,nonEmptyFn
 //go:generate go fmt
 

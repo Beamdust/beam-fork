@@ -21,10 +21,10 @@ import (
 	"reflect"
 
 	"cloud.google.com/go/spanner/apiv1/spannerpb"
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
 
 	"cloud.google.com/go/spanner"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/register"
 )
 
 func init() {

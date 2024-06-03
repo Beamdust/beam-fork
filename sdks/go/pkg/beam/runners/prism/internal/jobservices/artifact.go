@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io"
 
-	jobpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/jobmanagement_v1"
+	jobpb "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/model/jobmanagement_v1"
 	"golang.org/x/exp/slog"
 	"google.golang.org/protobuf/encoding/prototext"
 )

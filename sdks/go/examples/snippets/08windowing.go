@@ -18,9 +18,9 @@ package snippets
 import (
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/window"
 )
 
 func settingWindows(s beam.Scope, items beam.PCollection) {

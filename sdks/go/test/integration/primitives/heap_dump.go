@@ -19,8 +19,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/log"
 )
 
 func oomFn(ctx context.Context, elm int, emit func(int)) {

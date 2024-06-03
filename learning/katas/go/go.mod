@@ -18,7 +18,7 @@ module beam.apache.org/learning/katas
 go 1.14
 
 require (
-	github.com/Beamdust/beam-fork v2.40.0
+	github.com/Beamdust/beam-fork/sdks/v3 v2.40.0
 	github.com/google/go-cmp v0.5.8
 	golang.org/x/net v0.23.0 // indirect
 	google.golang.org/genproto v0.0.0-20220815135757-37a418bb8959 // indirect

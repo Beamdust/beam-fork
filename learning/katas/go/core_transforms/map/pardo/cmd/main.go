@@ -19,10 +19,10 @@ import (
 	"context"
 
 	"beam.apache.org/learning/katas/core_transforms/map/pardo/pkg/task"
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/x/debug"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/x/debug"
 )
 
 func main() {

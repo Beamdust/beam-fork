@@ -20,7 +20,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/internal/errors"
 )
 
 // RowDecoderBuilder allows one to build Beam Schema row decoder for provided types.

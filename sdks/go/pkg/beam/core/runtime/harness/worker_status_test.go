@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/harness/statecache"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/runtime/harness/statecache"
 
-	fnpb "github.com/Beamdust/beam-fork/go/pkg/beam/model/fnexecution_v1"
+	fnpb "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/model/fnexecution_v1"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/test/bufconn"

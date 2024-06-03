@@ -55,11 +55,11 @@ package bigtableio
 import (
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/typex"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/xlangx"
-	xlschema "github.com/Beamdust/beam-fork/go/pkg/beam/transforms/xlang/schema"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/runtime/xlangx"
+	xlschema "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/transforms/xlang/schema"
 )
 
 type bigtableConfig struct {

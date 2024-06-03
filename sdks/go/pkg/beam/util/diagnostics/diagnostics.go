@@ -27,8 +27,8 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/io/filesystem"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/log"
 )
 
 const (

@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/coder"
 )
 
 // PCollection is a passthrough node to collect PCollection metrics, and

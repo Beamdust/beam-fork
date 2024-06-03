@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/test/integration/internal/jars"
-	"github.com/Beamdust/beam-fork/go/test/integration/internal/ports"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/test/integration/internal/jars"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/test/integration/internal/ports"
 )
 
 // ExpansionServices is a struct used for getting addresses and starting expansion services, based

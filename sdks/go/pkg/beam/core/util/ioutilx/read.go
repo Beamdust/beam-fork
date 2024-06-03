@@ -20,7 +20,7 @@ import (
 	"io"
 	"unsafe"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/internal/errors"
 )
 
 // ReadN reads exactly N bytes from the reader. Fails otherwise.

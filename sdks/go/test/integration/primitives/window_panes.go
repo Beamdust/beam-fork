@@ -18,12 +18,12 @@ package primitives
 import (
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window/trigger"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/teststream"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/window/trigger"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/testing/teststream"
 )
 
 func init() {

@@ -32,7 +32,7 @@ SDK_TAG_LOCAL=${SDK_TAG_LOCAL/%.dev/-dev}
 mkdir -p $PREPARED_MOD_DIR
 cd $PREPARED_MOD_DIR
 
-BEAM_PKG=github.com/Beamdust/beam-fork
+BEAM_PKG=github.com/Beamdust/beam-fork/sdks/v3
 
 go mod init $PIPELINES_MODULE
 go mod edit -require=$BEAM_PKG@v$SDK_TAG

@@ -23,16 +23,16 @@ import (
 	"path"
 	"reflect"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/funcx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/mtime"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/window"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/metrics"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/sdf"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/timers"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/util/errorx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/funcx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/mtime"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/window"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/metrics"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/sdf"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/timers"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/util/errorx"
 )
 
 // ParDo is a DoFn executor.

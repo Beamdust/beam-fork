@@ -21,8 +21,8 @@ import (
 
 	"beam.apache.org/learning/katas/windowing/fixed_time_window/fixed_time_window/pkg/common"
 	"beam.apache.org/learning/katas/windowing/fixed_time_window/fixed_time_window/pkg/task"
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/testing/ptest"
 	"github.com/google/go-cmp/cmp"
 )
 

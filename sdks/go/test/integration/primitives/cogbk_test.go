@@ -20,8 +20,8 @@ package primitives
 import (
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
-	"github.com/Beamdust/beam-fork/go/test/integration"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/test/integration"
 )
 
 func TestCoGBK(t *testing.T) {

@@ -20,10 +20,10 @@ import (
 
 	"beam.apache.org/learning/katas/io/textio/read/pkg/task"
 	"beam.apache.org/learning/katas/io/textio/read/testdata"
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/x/debug"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/x/debug"
 )
 
 var filePath = testdata.Path("countries.txt")

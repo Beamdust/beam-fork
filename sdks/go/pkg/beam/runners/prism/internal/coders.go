@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/util/ioutilx"
-	pipepb "github.com/Beamdust/beam-fork/go/pkg/beam/model/pipeline_v1"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/prism/internal/urns"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/runtime/exec"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/util/ioutilx"
+	pipepb "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/model/pipeline_v1"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/runners/prism/internal/urns"
 	"golang.org/x/exp/slog"
 	"google.golang.org/protobuf/encoding/prototext"
 )

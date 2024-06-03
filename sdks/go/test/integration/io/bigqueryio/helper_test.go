@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/Beamdust/beam-fork/go/test/integration"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/test/integration"
 )
 
 // newTempTable creates a new BigQuery table using BigQuery's Data Definition Language (DDL) and the

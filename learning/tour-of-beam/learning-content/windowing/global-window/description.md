@@ -72,8 +72,8 @@ You can apply the functions on the playground example. You can supplement with *
 Import dependency:
 ```
 "strings"
-"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/stats"
-"github.com/Beamdust/beam-fork/go/pkg/beam/transforms/filter"
+"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/transforms/stats"
+"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/transforms/filter"
 ```
 
 Modify code:

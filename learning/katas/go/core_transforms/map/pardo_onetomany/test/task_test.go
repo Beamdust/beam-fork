@@ -19,9 +19,9 @@ import (
 	"testing"
 
 	"beam.apache.org/learning/katas/core_transforms/map/pardo_onetomany/pkg/task"
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/ptest"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/testing/ptest"
 )
 
 func TestTask(t *testing.T) {

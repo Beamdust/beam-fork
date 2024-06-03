@@ -24,15 +24,15 @@ import (
 	"context"
 	"path"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/metrics"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/runtime/exec"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/typex"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/log"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/options/jobopts"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/runners/vet"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/metrics"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/runtime/exec"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/typex"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/log"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/options/jobopts"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/runners/vet"
 )
 
 func init() {

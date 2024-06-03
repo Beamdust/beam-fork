@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/dataflow"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/flink"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/samza"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/spark"
-	"github.com/Beamdust/beam-fork/go/test/integration/internal/jars"
+	_ "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/runners/dataflow"
+	_ "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/runners/flink"
+	_ "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/runners/samza"
+	_ "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/runners/spark"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/test/integration/internal/jars"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 )

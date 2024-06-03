@@ -29,16 +29,16 @@ import (
 	"log"
 	"sort"
 
-	"github.com/Beamdust/beam-fork/go/examples/xlang"
-	"github.com/Beamdust/beam-fork/go/pkg/beam"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/register"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/testing/passert"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/x/beamx"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/examples/xlang"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/register"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/testing/passert"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/x/beamx"
 
 	// Imports to enable correct filesystem access and runner setup in LOOPBACK mode
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem/gcs"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/io/filesystem/local"
-	_ "github.com/Beamdust/beam-fork/go/pkg/beam/runners/universal"
+	_ "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/io/filesystem/gcs"
+	_ "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/io/filesystem/local"
+	_ "github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/runners/universal"
 )
 
 var (

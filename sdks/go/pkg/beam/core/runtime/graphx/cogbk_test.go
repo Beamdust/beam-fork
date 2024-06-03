@@ -18,8 +18,8 @@ package graphx
 import (
 	"testing"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph"
-	"github.com/Beamdust/beam-fork/go/pkg/beam/core/graph/coder"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/core/graph/coder"
 )
 
 func makeValidGBKMultiEdge(keyCoder, valueCoder *coder.Coder) *graph.MultiEdge {

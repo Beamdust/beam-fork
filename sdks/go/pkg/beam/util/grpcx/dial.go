@@ -20,7 +20,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/Beamdust/beam-fork/go/pkg/beam/internal/errors"
+	"github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/internal/errors"
 	"google.golang.org/grpc"
 )
 

@@ -38,7 +38,7 @@ This puts all Go code necessary for user pipeline development and for execution
 under the same module.
 This includes container bootloader code in the Java and Python SDK directories.
 
-Pipeline authors will require a dependency on `github.com/Beamdust/beam-fork` in their
+Pipeline authors will require a dependency on `github.com/Beamdust/beam-fork/sdks/v3` in their
 `go.mod` files to use beam.
 
 ### Gradle integration
@@ -63,7 +63,7 @@ changes and execute tests from within the module directory (`<repo>/sdks/...`).
 
 Go users can just `go get` the code directly. For example:
 ```
-go get github.com/Beamdust/beam-fork/go/pkg/beam
+go get github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam
 ```
 Developers must invoke Go for cross-compilation manually, if desired.
 
@@ -73,7 +73,7 @@ Consult `pkg/beam/model/PROTOBUF.md`.
 If you make changes to .tmpl files, then add the specialize tool to your path.
 You can install specialize using:
 ```
-go get github.com/Beamdust/beam-fork/go/cmd/specialize
+go get github.com/Beamdust/beam-fork/sdks/v3/go/cmd/specialize
 ```
 Add it to your path:
 ```
