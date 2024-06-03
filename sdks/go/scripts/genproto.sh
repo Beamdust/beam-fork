@@ -97,8 +97,7 @@ function gen_go_sdk_protos() {
   cd "$SDK_PATH"
 
   # TODO: make this more data driven.
-  # PKG_MAP=Mbeam_fn_api.proto=github.com/apache/beam/sdks/go/pkg/beam/model/fnexecution_v1
-  PKG_MAP=Mbeam_fn_api.proto=github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam/model/fnexecution_v1
+  PKG_MAP=Mbeam_fn_api.proto=github.com/apache/beam/sdks/go/pkg/beam/model/fnexecution_v1
 
   declare -a TO_INC=(
     "."
@@ -115,8 +114,8 @@ function gen_go_sdk_protos() {
 
   protoc \
     "${INCLUDES[@]}" \
-    --go_opt=module=github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam \
-    --go-grpc_opt=module=github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam \
+    --go_opt=module=github.com/Beamdust/beam-fork/sdks/v3 \
+    --go-grpc_opt=module=github.com/Beamdust/beam-fork/sdks/v3 \
     --go_out=$PKG_MAP:. \
     --go-grpc_out=. \
     $PROTOS
@@ -143,8 +142,8 @@ function gen_beam_model_protos() {
   do
     protoc \
       "${INCLUDES[@]}" \
-      --go_opt=module=github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam \
-      --go-grpc_opt=module=github.com/Beamdust/beam-fork/sdks/v3/go/pkg/beam \
+      --go_opt=module=github.com/Beamdust/beam-fork/sdks/v3 \
+      --go-grpc_opt=module=github.com/Beamdust/beam-fork/sdks/v3 \
       --go_out="$PROJECT_ROOT/sdks" \
       --go-grpc_out="$PROJECT_ROOT/sdks" \
       $package
