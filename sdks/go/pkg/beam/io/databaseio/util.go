@@ -46,6 +46,9 @@ func mapFields(columns []string, recordType reflect.Type) ([]int, error) {
 			fieldIndex, ok = indexedFields[strings.ToLower(column)]
 		}
 		if !ok {
+			fieldIndex, ok = indexedFields[strings.ToUpper(column)]
+		}
+		if !ok {
 			fieldIndex, ok = indexedFields[strings.Replace(strings.ToLower(column), "_", "", strings.Count(column, "_"))]
 		}
 		if !ok {
