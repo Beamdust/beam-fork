@@ -20,6 +20,7 @@ package databaseio
 import (
 	"database/sql"
 	"fmt"
+	"regexp"
 	"strings"
 
 	"golang.org/x/net/context"
@@ -54,13 +55,26 @@ func (w *writer) add(row []any) error {
 	return nil
 }
 
-func (w *writer) write(ctx context.Context, db *sql.DB) error {
+func (w *writer) write(ctx context.Context, db *sql.DB, driver string) error {
 	values := w.valueTemplateGenerator.generate(w.rowCount, w.columnCount)
 	if len(values) == 0 {
 		log.Info(ctx, "No value(s) to be written....")
 		return nil
 	}
-	SQL := w.sqlTemplate + values
+	var SQL string
+	switch driver {
+	case "oracle", "godror":
+		template := strings.SplitAfter(w.sqlTemplate, "INSERT ")[1]
+		valueClauses := (regexp.MustCompile(`\([^()]*\)`)).FindAllStringSubmatch(values, -1)
+
+		SQL = "INSERT ALL "
+		for _, clause := range valueClauses {
+			SQL += template + clause[0] + " "
+		}
+		SQL += " SELECT 1 FROM dual"
+	default:
+		SQL = w.sqlTemplate + values
+	}
 	resultSet, err := db.ExecContext(ctx, SQL, w.binding...)
 	if err != nil {
 		return err
@@ -74,16 +88,16 @@ func (w *writer) write(ctx context.Context, db *sql.DB) error {
 	return nil
 }
 
-func (w *writer) writeBatchIfNeeded(ctx context.Context, db *sql.DB) error {
+func (w *writer) writeBatchIfNeeded(ctx context.Context, db *sql.DB, driver string) error {
 	if w.rowCount >= w.batchSize {
-		return w.write(ctx, db)
+		return w.write(ctx, db, driver)
 	}
 	return nil
 }
 
-func (w *writer) writeIfNeeded(ctx context.Context, db *sql.DB) error {
+func (w *writer) writeIfNeeded(ctx context.Context, db *sql.DB, driver string) error {
 	if w.rowCount >= 0 {
-		return w.write(ctx, db)
+		return w.write(ctx, db, driver)
 	}
 	return nil
 }
@@ -123,8 +137,8 @@ func (v *valueTemplateGenerator) generate(rowCount int, columnColunt int) string
 		return strings.Join(valueTemplates, ",")
 	case "godror", "oracle":
 		placeholders := make([]string, len(v.columns))
-		for i, col := range v.columns {
-			placeholders[i] = ":" + col
+		for i := range v.columns {
+			placeholders[i] = ":" + fmt.Sprintf("%d", i) //col
 		}
 		values := strings.Join(placeholders, ",")
 		var templates string

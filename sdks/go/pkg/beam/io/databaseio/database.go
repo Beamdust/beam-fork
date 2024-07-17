@@ -207,12 +207,12 @@ func (f *writeFn) ProcessElement(ctx context.Context, _ int, iter func(*beam.X) 
 		if err = writer.add(row); err != nil {
 			return err
 		}
-		if err := writer.writeBatchIfNeeded(ctx, db); err != nil {
+		if err := writer.writeBatchIfNeeded(ctx, db, f.Driver); err != nil {
 			return err
 		}
 	}
 
-	if err := writer.writeIfNeeded(ctx, db); err != nil {
+	if err := writer.writeIfNeeded(ctx, db, f.Driver); err != nil {
 		return err
 	}
 
